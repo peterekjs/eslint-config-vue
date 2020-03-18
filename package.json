@@ -1,0 +1,42 @@
+{
+  "name": "@peterek/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Eslint config for Vue.js projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterekjs/eslint-config-vue.git"
+  },
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style",
+    "style checker",
+    "style linter",
+    "vue",
+    "vuejs"
+  ],
+  "author": "Jiri Peterek <jiri.peterek@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterekjs/eslint-config-vue/issues"
+  },
+  "homepage": "https://github.com/peterekjs/eslint-config-vue#readme",
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@peterek/eslint-config-base": "^1.1.1",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
